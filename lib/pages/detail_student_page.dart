@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_material_design_icons/flutter_material_design_icons.dart';
+import 'package:lottie/lottie.dart';
 import 'package:ph2_pwm_hashfi/main.dart';
 
 class DetailStudentPage extends StatefulWidget {
@@ -118,8 +119,8 @@ class _DetailStudentPageState extends State<DetailStudentPage> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   SizedBox(
-                    height: 156,
-                    child: Image.asset("assets/images/add_student.png"),
+                    height: 300,
+                    child: LottieBuilder.asset('assets/lotties/add_data.json'),
                   ),
                   const SizedBox(height: 24),
                   TextFormField(

@@ -7,8 +7,9 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Supabase.initialize(
-    url: '',
-    anonKey: '',
+    url: 'https://jobexwtviwqscwtaorvi.supabase.co',
+    anonKey:
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpvYmV4d3R2aXdxc2N3dGFvcnZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjgyNjI5MzMsImV4cCI6MjA0MzgzODkzM30.8d5FWnUjcf91W2od45E9iOz0ncTNAQGZc2FJwlWGOFA',
   );
   final isLoggedIn = await isUsernameNull();
 
