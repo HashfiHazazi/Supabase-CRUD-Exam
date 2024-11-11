@@ -8,7 +8,6 @@ plugins {
 android {
     namespace = "com.example.ph2_pwm_hashfi"
     compileSdk = flutter.compileSdkVersion
-    
     ndkVersion = "25.1.8937393"
 
     compileOptions {
